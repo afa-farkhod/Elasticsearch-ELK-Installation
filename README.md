@@ -25,3 +25,14 @@ Elastic Stack Installation: Elasticsearch, Kibana and Logstash.
     ```
     bin/elasticsearch.bat
     ```
+  - Before running it, disable the security configuration in the following file, it is not necessary, but if you are having trouble to retrieve your password for elastic then it might be useful:  `c:\elastic-stack\elasticsearch-8.7.1\config\elasticsearch.yml` by making the configuration to `false`
+ 
+  <p align="center">
+    <img src="https://user-images.githubusercontent.com/24220136/236627245-7b96913a-51ef-4285-a644-85a204405fd1.png" alt="Image">
+  </p>
+
+  - Then go inside the following directory: `c:\elastic-stack\elasticsearch-8.7.1\bin` and run the command: `elasticsearch.bat`, then open the port: `localhost:9200` in the browser, you should see the following:
+
+  <p align="center">
+    <img src="https://user-images.githubusercontent.com/24220136/236627341-ada8ef31-851a-4dac-ae7f-9523bac9918e.png" alt="Image">
+  </p>
