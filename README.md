@@ -57,25 +57,25 @@ Elastic Stack Installation: Elasticsearch, Kibana and Logstash.
   <img src="https://user-images.githubusercontent.com/24220136/236627845-e8a5fa86-e5e9-4760-9010-8bdaeecd7fa2.png" alt="Image">
 </p>
 
-    - So now we create `logstash.conf` file, and show the dataset location to ingest to elasticsearch. Before, in `flowers.csv` file we have to show the following columns: 
+  - So now we create `logstash.conf` file, and show the dataset location to ingest to elasticsearch. Before, in `flowers.csv` file we have to show the following columns: 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/24220136/236627979-41abeadb-4218-4025-81bd-c8b8500e121e.png" alt="Image">
 </p>
 
-    - Following is the `logstash.conf` file with the dataset path and columns names:
+   - Following is the `logstash.conf` file with the dataset path and columns names:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/24220136/236628145-12d9bdf1-b7b2-45a8-b9e8-2ad997435924.png" alt="Image">
 </p>
 
-    - To ingest the data, we have to be in a folder where our `logstash.conf` file is located. Then run the following command: `logstash -f logstash.conf`
+   - To ingest the data, we have to be in a folder where our `logstash.conf` file is located. Then run the following command: `logstash -f logstash.conf`
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/24220136/236628258-5b135b2c-93d9-4627-a994-123f6bb039d9.png" alt="Image">
 </p>
 
-    - Then in Kibana interface we go to Dev Tools and can check our ingested data: 
+   - Then in Kibana interface we go to Dev Tools and can check our ingested data: 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/24220136/236628339-81aa632a-ad9c-4be2-b10b-652b752b52c2.png" alt="Image">
