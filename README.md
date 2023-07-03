@@ -47,17 +47,17 @@ Elastic Stack Installation: Elasticsearch, Kibana and Logstash.
     <img src="https://user-images.githubusercontent.com/24220136/236627447-8d64ffa1-f6f0-41f1-bbc6-73c9a5e791a8.png" alt="Image">
   </p>
 
-  - [Download Logstash](https://www.elastic.co/kr/downloads/logstash) <tr><img src="https://elastic-content-share.eu/wp-content/uploads/edd/2020/06/logstash-logo-color.png" width="35" title=""></tr>
-    - You can choose OS type: Windows, macOS, Linux.
-    - Also can choose packages: yum, apt-get
-    - You can run in `Docker` container
-    - Logstash is basically used as the pipeline to ingest the data to elasticsearch. So in the following we get sample from `kaggle.com` dataset website, the following is the sample dataset `flowers.csv`:
+- [Download Logstash](https://www.elastic.co/kr/downloads/logstash) <tr><img src="https://elastic-content-share.eu/wp-content/uploads/edd/2020/06/logstash-logo-color.png" width="35" title=""></tr>
+  - You can choose OS type: Windows, macOS, Linux.
+  - Also can choose packages: yum, apt-get
+  - You can run in `Docker` container
+  - Logstash is basically used as the pipeline to ingest the data to elasticsearch. So in the following we get sample from `kaggle.com` dataset website, the following is the sample dataset `flowers.csv`:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/24220136/236627845-e8a5fa86-e5e9-4760-9010-8bdaeecd7fa2.png" alt="Image">
 </p>
 
-  - So now we create `logstash.conf` file, and show the dataset location to ingest to elasticsearch. Before, in `flowers.csv` file we have to show the following columns: 
+   - So now we create `logstash.conf` file, and show the dataset location to ingest to elasticsearch. Before, in `flowers.csv` file we have to show the following columns: 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/24220136/236627979-41abeadb-4218-4025-81bd-c8b8500e121e.png" alt="Image">
