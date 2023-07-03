@@ -80,3 +80,52 @@ Elastic Stack Installation: Elasticsearch, Kibana and Logstash.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/24220136/236628339-81aa632a-ad9c-4be2-b10b-652b752b52c2.png" alt="Image">
 </p>
+
+-----------------
+
+### [Elasticsearch on Linux](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04)
+
+- We can also run the Elasticsearch, Kibana and Logstash at once inside the `docker-compose.yml` file based on `Linux` Operating System:
+- Following is the `Elasticsearch` container by pulling the `elasticsearch:7.16.2` image from the Docker hub:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/236646804-424bf108-ac1f-4a7c-a125-160caa1dfdd8.png" alt="Image">
+</p>
+
+- Following is `Kibana` container by pulling the `kibana:7.16.2` image from the Docker hub:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/236646816-7c0ba095-3333-42e8-ab97-72d835a7a730.png" alt="Image">
+</p>
+
+- Following is `Logstash` container by pulling the `logstash:7.16.2` image from the Docker hub:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/236646902-52215f82-5c92-4b25-ada7-b8adaa824350.png" alt="Image">
+</p>
+
+- Then we bring them all inside the `docker-compose.yml` file which runs the elasticsearch inside the docker container. To do so we run the command `docker-compose.up`:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/227846350-d2fc6be7-e676-4dd4-9038-ba248b6e67f3.png" alt="Image">
+</p>
+
+- We can see our running servers inside the docker containers with the following command:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/227846458-ea87f3dd-fc05-4904-b5e4-7ae8544d99b6.png" alt="Image">
+</p>
+
+- We can check elasticsearch on port:9200 (if you pay attention to cluster_name: "docker-cluster")
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/227846675-a1fc845e-7bb8-4bf5-8d64-19c5ebed703e.png" alt="Image">
+</p>
+
+-------------------------
+
+- Don't forget to set environmental variables as following in the beginning!:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/236627530-518d74a9-fb68-4317-b4ec-bd9dbc0b4a34.png" alt="Image">
+</p>
