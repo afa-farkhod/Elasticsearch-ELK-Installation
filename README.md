@@ -129,3 +129,7 @@ Elastic Stack Installation: Elasticsearch, Kibana and Logstash.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/24220136/236627530-518d74a9-fb68-4317-b4ec-bd9dbc0b4a34.png" alt="Image">
 </p>
+
+### [Additional Information]()
+
+- [Search Template](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-template.html) - If you use Elasticsearch for a custom application, search templates let you change your searches without modifying your app’s code.
