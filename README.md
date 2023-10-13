@@ -133,3 +133,5 @@ Elastic Stack Installation: Elasticsearch, Kibana and Logstash.
 ### [Additional Information]()
 
 - [Search Template](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-template.html) - If you use Elasticsearch for a custom application, search templates let you change your searches without modifying your app’s code.
+- [Query DSL](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html) - Elasticsearch provides a full Query DSL (Domain Specific Language) based on JSON to define queries.
+- 
