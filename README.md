@@ -116,7 +116,7 @@ Elastic Stack Installation: Elasticsearch, Kibana and Logstash.
   <img src="https://user-images.githubusercontent.com/24220136/227846458-ea87f3dd-fc05-4904-b5e4-7ae8544d99b6.png" alt="Image">
 </p>
 
-- We can check elasticsearch on port:9200 (if you pay attention to cluster_name: "docker-cluster")
+- We can check Elasticsearch on port:9200 (if you pay attention to cluster_name: "docker-cluster")
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/24220136/227846675-a1fc845e-7bb8-4bf5-8d64-19c5ebed703e.png" alt="Image">
